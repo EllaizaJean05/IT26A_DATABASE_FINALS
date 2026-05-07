@@ -3,7 +3,6 @@
 
 <head>
     <title>CampusSafe Login</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,6 +21,11 @@
         <button type="submit">Login</button>
 
     </form>
+
+    <p>
+        No account?
+        <a href="register.php">Register Here</a>
+    </p>
 
 </div>
 

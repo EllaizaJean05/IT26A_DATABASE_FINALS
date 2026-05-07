@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include 'includes/db.php';
+include 'db.php';
 
 $email = $_POST['email'];
 $password = $_POST['password'];
@@ -20,16 +20,17 @@ if(mysqli_num_rows($result) > 0){
         $_SESSION['name'] = $row['name'];
 
         header("Location: dashboard.php");
+        exit();
 
     } else {
 
-        echo "Wrong Password";
+        echo "Incorrect Password";
 
     }
 
 } else {
 
-    echo "User not found";
+    echo "User Not Found";
 
 }
 
