@@ -1,0 +1,6 @@
+# Query: .html
+
+1 result - 1 file
+
+reports.js:
+  2: if (!user) { alert("Please login first."); window.location.href = "index.php"; }

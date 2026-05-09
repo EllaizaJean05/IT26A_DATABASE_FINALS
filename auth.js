@@ -53,5 +53,5 @@ document.getElementById("loginBtn").addEventListener("click", () => {
   if(!localStorage.getItem("reports_" + user)) {
     localStorage.setItem("reports_" + user, JSON.stringify([]));
   }
-  window.location.href = "dashboard.html";
+  window.location.href = "dashboard.php";
 });

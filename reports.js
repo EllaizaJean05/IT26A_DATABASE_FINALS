@@ -1,5 +1,5 @@
 const user = localStorage.getItem("activeUser");
-if (!user) { alert("Please login first."); window.location.href = "index.html"; }
+if (!user) { alert("Please login first."); window.location.href = "index.php"; }
 
 document.addEventListener("DOMContentLoaded", () => {
     loadReportsTable();

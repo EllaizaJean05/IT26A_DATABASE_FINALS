@@ -9,7 +9,7 @@ function loadDashboard() {
     const user = localStorage.getItem("activeUser");
     if (!user) {
         alert("Please login first.");
-        window.location.href = "index.html";
+        window.location.href = "index.php";
         return;
     }
 

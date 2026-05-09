@@ -1,5 +1,5 @@
 function toggleMenu() {
-    const controls = document.getElementById('nav-controls');
+    const controls = document.getElementById('navControls');
     if (controls) {
         controls.classList.toggle('open');
     }
@@ -13,7 +13,7 @@ function showSection(id) {
 }
 function logout() {
     localStorage.removeItem("activeUser");
-    window.location.href = "index.html";
+    window.location.href = "index.php";
 }
 
 //Consolidated Event Listener 

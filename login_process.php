@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include 'db.php';
+include 'db_conn.php';
 
 $email = $_POST['email'];
 $password = $_POST['password'];

@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>CampusSafe Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <div class="login-container">
@@ -28,8 +26,6 @@
     </p>
 
 </div>
-
-<script src="auth.js"></script>
 
 </body>
 </html>

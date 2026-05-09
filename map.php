@@ -12,12 +12,12 @@
 <header id="topbar">
   <div class="brand">CampusSafe</div>
   <div class="controls">
-    <button onclick="window.location.href='dashboard.html'">Dashboard</button>
-    <button onclick="window.location.href='weather.html'">Weather</button>
-    <button onclick="window.location.href='map.html'">Map</button>
-    <button onclick="window.location.href='reports.html'">Reports</button>
-    <button onclick="window.location.href='profile.html'">Profile</button>
-    <button onclick="window.location.href='about.html'">About</button>
+    <button onclick="window.location.href='dashboard.php'">Dashboard</button>
+    <button onclick="window.location.href='weather.php'">Weather</button>
+    <button onclick="window.location.href='map.php'">Map</button>
+    <button onclick="window.location.href='reports.php'">Reports</button>
+    <button onclick="window.location.href='profile.php'">Profile</button>
+    <button onclick="window.location.href='about.php'">About</button>
     <button onclick="logout()">Logout</button>
   </div>
 </header>

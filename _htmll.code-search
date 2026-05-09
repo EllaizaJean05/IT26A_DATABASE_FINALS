@@ -1,0 +1,54 @@
+# Query: .html
+# ContextLines: 1
+
+14 results - 9 files
+
+about.php:
+  12    <div class="controls">
+  13:     <button onclick="window.location.href='dashboard.php'">Dashboard</button>
+  14:     <button onclick="window.location.href='weather.php'">Weather</button>
+  15:     <button onclick="window.location.href='map.php'">Map</button>
+  16:     <button onclick="window.location.href='reports.php'">Reports</button>
+  17:     <button onclick="window.location.href='profile.php'">Profile</button>
+  18:     <button onclick="window.location.href='about.php'">About</button>
+  19      <button onclick="logout()">Logout</button>
+
+auth.js:
+  55    }
+  56:   window.location.href = "dashboard.php";
+  57  });
+
+dashboard.js:
+  11          alert("Please login first.");
+  12:         window.location.href = "index.php";
+  13          return;
+
+main.js:
+  15      localStorage.removeItem("activeUser");
+  16:     window.location.href = "index.php";
+  17  }
+
+map.js:
+  2    const activeUser = localStorage.getItem("activeUser");
+  3:   if(!activeUser){ alert("Please login first."); window.location.href="index.php"; return; }
+  4  
+
+profile.js:
+  1  const user = localStorage.getItem("activeUser");
+  2: if(!user){ alert("Please login first."); window.location.href="index.php"; }
+  3  
+
+profile.php:
+  38    localStorage.removeItem("activeUser");
+  39:   window.location.href = "index.php";
+  40  }
+
+reports.js:
+  1  const user = localStorage.getItem("activeUser");
+  2: if (!user) { alert("Please login first."); window.location.href = "index.php"; }
+  3  
+
+weather.php:
+  40    localStorage.removeItem("activeUser");
+  41:   window.location.href = "index.php";
+  42  }
